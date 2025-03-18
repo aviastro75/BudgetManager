@@ -1,3 +1,4 @@
 # BudgetManager1
-Budget manager program\n
+Budget manager program
+
 hi
