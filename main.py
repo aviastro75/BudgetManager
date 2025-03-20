@@ -19,3 +19,21 @@ while True:
   print("5. exit")
 
 
+  userChoise = input("Enter your chiose: ")
+
+  match userChoise:
+
+    case "1":
+
+    case "2":
+
+    case "3":
+
+    case "4":
+
+    case "5":
+
+    case _:
+            print("Invalid option, return to main menu\n")
+            continue
+
