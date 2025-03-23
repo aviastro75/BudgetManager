@@ -1,12 +1,6 @@
-incomes = [
-{"amount": 1000, "description": "Salary"},
-{"amount": 200, "description": "Freelance work"}
-]
+incomes = []
 
-expenses = [
-{"amount": 500, "description": "Rent"},
-{"amount": 100, "description": "Utilities"}
-]
+expenses = []
 
 balance = sum(item["amount"] for item in incomes) - sum(item["amount"] for item in
 expenses)
