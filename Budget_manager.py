@@ -1,3 +1,5 @@
+import transactions
+
 incomes = []
 
 expenses = []
@@ -21,14 +23,25 @@ while True:
   match userChoise:
 
     case "1":
+        
+        transactions.addIncome()
+
 
     case "2":
 
+        pass
+
     case "3":
 
+        pass
+
     case "4":
+      
+        pass
 
     case "5":
+
+        pass
 
     case _:
             print("Invalid option, return to main menu\n")
