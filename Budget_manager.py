@@ -29,19 +29,19 @@ while True:
 
     case "2":
 
-        pass
+        transactions.addExpense()
 
     case "3":
 
-        pass
+        transactions.showBalance()
 
     case "4":
       
-        pass
+        transactions.showTranHistory()
 
     case "5":
 
-        pass
+        break
 
     case _:
             print("Invalid option, return to main menu\n")
